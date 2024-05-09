@@ -1,2 +1,0 @@
-I am Learning jQuery.
-This is Shahriar Rahman Shakil
