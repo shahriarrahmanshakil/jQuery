@@ -11,3 +11,11 @@ function calculate(){
     let calculateResult = eval($('#result').val());
     $('#result').val(calculateResult);
 }
+
+function deleteNumber(){
+    let currentvalue = $('#result').val();
+    if(currentvalue){
+        $('#result').val($('#result').val().slice(0,-1));
+    }
+
+}
